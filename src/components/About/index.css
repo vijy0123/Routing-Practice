@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.about-img {
+  width: 150px;
+}
+.about-heading {
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #6d396b;
+}
+.about-paragraph {
+  font-size: 20px;
+  font-family: Roboto;
+  color: #555555;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 32px;
+  }
+}
